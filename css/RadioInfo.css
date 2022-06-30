@@ -1,0 +1,85 @@
+.bodyRadioInfo{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 140px 40px auto 100px;
+  background-image: url(../img/bacground.jpg);
+}
+
+.content_DIVTextInfo{
+    border: 0.1px white solid;
+    margin: 10px;
+    padding: 5px;
+    background: #000 url(Vo4Z.gif) no-repeat top;
+    background-size: cover;
+        display: flex;
+     grid-template-columns:  auto auto auto;
+     column-gap:  20px;
+     flex-wrap: wrap;
+}
+.tgme_page_photo_image{
+  width: 122px;
+    height: 122px;
+    border-radius: 61px;
+      margin: 0 auto;
+}
+.content_DIVTextInfo_Telegram{
+  margin: 0 auto;
+  width: 300px;
+  display: grid;
+}
+.TgName{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.InsName{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.MailName{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+}
+
+.tgme_page_description{
+  font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    max-width: 340px;
+    padding: 0 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tgme_action_button_new{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 100%;
+  color: #FFF;
+  background: #a970db;
+  border-radius: 22px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 15px 27px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-top:20px;
+  font-family: 'Roboto', sans-serif;
+}
+.tgme_action_button_new:hover{
+  background: #58249c;
+}
+.content_HadText{
+  font-size:30px;
+  font-family: PT Sans, Open Sans, Tahoma, Verdana, Sans-Serif;
+  display: grid;
+  justify-content: space-evenly;
+}

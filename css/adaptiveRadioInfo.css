@@ -1,0 +1,42 @@
+@media only screen and (max-device-width: 480px) {
+  .bodyRadioInfo{
+    display: grid;
+    grid-template-rows: 140px auto  100px;
+  }
+  .content_DIVTextInfo{
+    flex-direction: column;
+  }
+  .content_DIVTextInfo_Telegram{
+    justify-content: space-evenly;
+  }
+  .TgName{
+    font-size: 60px;
+  }
+  .InsName{
+    font-size: 60px;
+  }
+  .MailName{
+    font-size: 60px;
+  }
+  .tgme_page_description{
+    font-size: 50px;
+  }
+  .tgme_page_description{
+    line-height: 80px;
+    max-width: 540px;
+  }
+  .tgme_page_photo_image{
+    width: 300px;
+    height: 300px;
+  }
+  .tgme_action_button_new{
+    width: 800px;
+    height: 60px;
+  }
+  .tgme_action_button_new{
+    font-size: 60px;
+  }
+  .content_HadText{
+    font-size: 80px;
+  }
+}

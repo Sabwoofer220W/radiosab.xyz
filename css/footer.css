@@ -1,0 +1,18 @@
+.footer_logo{
+  width:80px ;
+padding: 10px;
+}
+.footer_Mail{
+padding-right:3px;
+}
+.footer_Name{
+padding-right:3px;
+}
+.footer_dicor{
+  background-image: url(../img/Footer.svg);
+  display:grid;
+  align-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}

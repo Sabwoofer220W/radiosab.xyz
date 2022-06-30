@@ -1,0 +1,39 @@
+@media only screen and (max-device-width: 480px) {
+.content_music_Popular_track_nomber{
+  font-size: 80px;
+}
+.Play_style1{
+  width: 120px;
+  height: 120px;
+}
+.divProgressName_Name{
+  font-size: 30px;
+}
+.divTime1{
+  font-size: 30px;
+}
+input[type=range] {
+    height: 20px;
+    width: 100%;
+}
+.inputRangeVolum{
+display: none;
+}
+.Volumicon{
+  width: 120px;
+  height: 120px;
+}
+.content_music_PopularMaintext{
+  font-size: 50px;
+}
+.content_music_maintext{
+  font-size: 60px;
+}
+.content_music_maintext{
+  font-size: 40px;
+}
+.button_SavePleylist{
+  font-size: 40px;
+  width: 97%;
+}
+}

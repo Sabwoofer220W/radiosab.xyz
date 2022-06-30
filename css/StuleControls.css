@@ -1,0 +1,57 @@
+.Music{
+	display: grid;
+	background-color:#13111f;
+	width:65%;
+	height:100%;
+	margin: 0 auto;
+	grid-template-columns:  1fr 13fr 4fr;
+}
+
+.Play_controls{
+	display: grid;
+ border-bottom: 1px dashed white;
+ border-top:1px dashed white;
+ align-items: center;
+}
+
+.Text_controlStyle {
+	display: grid;
+ border-bottom: 1px dashed white;
+ border-top:1px dashed white;
+	grid-template-rows: auto auto;
+}
+
+.Play_info{
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+ border-bottom: 1px dashed white;
+ border-top:1px dashed white;
+}
+
+.Play_style{
+	width: 60px;
+	height: 60px;
+	cursor:pointer;
+}
+.Play_style:hover{
+opacity: 0.65;
+ filter: alpha (Opacity=65);
+}
+.Text_control{
+	color:White;
+	position: relative;
+	top: 15%;
+	font-size:28px;
+	font-family: PT Sans, Open Sans, Tahoma, Verdana, Sans-Serif;
+}
+.Text_control_Name{
+	color:White;
+	position: relative;
+	top: 15%;
+	font-size:24px;
+	font-family: PT Sans, Open Sans, Tahoma, Verdana, Sans-Serif;
+}
+.Play_infoMobile{
+	display:none;
+}

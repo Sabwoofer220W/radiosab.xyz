@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+	<html>
+
+		<head>
+			<meta charset="UTF-8">
+		<title>RadioSAB</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/StuleControls.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<link rel="stylesheet" type="text/css" href="css/News.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/SidePanel.css">
+			<link rel="stylesheet" type="text/css" href="css/adaptive.css">
+		<link rel="icon" href="img/favicon.png" type="image/png">
+		    <meta name="keywords" content=" radiosab, RadioSAB, SAB, радиосаб, радио постпанк, постпанк, онлайн радио, радио, радио онлайн, музыка для отдыха, relax music, relaxation music, relax radio">
+			<meta name="description" content="RadioSAB – альтернативное интернет радио, на котором вещаются пост-панк, джаз, рок, инди, блюз, от создателей «gachimuchi soundboard»!, релакс музыка и ламповая атмосфера!">
+			<meta name="yandex-verification" content="4ba025a2c3444bea">
+			<meta name="google-site-verification" content="UJuk0q_HO2QAUBCYndCd1SnBgd0UuKbmWVEbdZJVUQw" />
+					<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86992908, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86992908" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+		</head>
+
+		<body>
+	 <!-- ====================================================================================== -->
+	<div class="headerImg">
+
+		<div class="MobileMenu">
+		<div class="side-button-1-wr">
+				<label class="side-button-1" for="side-checkbox">
+						<div class="side-b side-open"><img class="animate1" width="100" height="100" src="img/MobileMenu.svg"></div>
+						<div class="side-b side-close">Закрыть</div>
+				</label>
+		</div>
+		<div class="button_MenuMobile">
+
+			<input type="checkbox" id="side-checkbox" />
+<div class="side-panel">
+<label class="side-button-2" for="side-checkbox">+</label>
+<div class="side-title" style="margin-top:50px; ">
+	<a class="Main-text" style="text-decoration:none;" href="index.html">Главная</a><br><br>
+	<a class="Main-text" style="text-decoration:none;" href="Music.html">Музыка</a><br><br>
+	<a class="Main-text" style="text-decoration:none;" href="Radio.html">О радио</a></div>
+
+</div>
+</div>
+</div>
+					<img style="width: 65%; height:100%;" src="img/headerImg.png" > </img>
+
+
+
+			</div>
+	<!-- ====================================================================================== -->
+			<div class="Menu">
+				<div class="Main-text"><a href="index.html">Главная</a></div>
+				<div class="Main-text"><a href="Music.html">Музыка</a></div>
+				<div class="Main-text"><a href="Radio.html">О Радио</a></div>
+			</div>
+			<div class="Music">
+
+			<audio style="display:none;" class="audio" controls>
+				<source src="http://194.87.146.25:8000/live">
+				</audio>
+
+			<div class="Play_controls">
+			<img onclick="play_audio()" src="img/Play.svg" alt="Play" class="Play_style">
+			</div>
+			<div class="Text_controlStyle">
+				<div>
+			<a class="Text_control"><== Нажмите для начала прослушивания </a><br>
+				</div>
+				<div>
+			<a class="Text_control_Name" >Играет: </a><span class="Text_control_Name" id="np_current_track"></span>
+				</div>
+            <script src="./scripts/Tracknow.js"></script>
+
+			</div>
+			<div class="Play_info">
+				<div>
+			<input id="slider" type="range" min="0" max="1" step="0.01" value="1" />
+				</div>
+				<div>
+					<img id="volumIcon" src="img/G3.svg" alt="Play" class="Play_style" style="width: 60px;height: 60px;cursor:pointer;">
+				</div>
+				<script src="./scripts/VolumAudio.js"></script>
+			</div>
+
+			<div class="Play_infoMobile">
+				<div>
+			<img id="volumIconMobile" src="img/G3.svg" alt="Play" class="Play_style" style="width: 150px;height: 150px;cursor:pointer;">
+				</div>
+				<script src="./scripts/VolumAudioMobile.js"></script>
+			</div>
+
+			</div>
+
+
+	<!-- ====================================================================================== -->
+			<div class="content" style="color:white;">
+	<p align="center" class="content_preview"><!--noindex--> Привет, слушатель !<!--/noindex--></p>
+				<br>
+	<p class="content_Maintext">
+	<!--noindex-->	Добро пожаловать на Наш абсолютно новый сервис радиовещания! Радио работает в режиме 24\7,
+		музыкальная база пополняется ежемесячно, а также авторы и после запуска работают над расширением функционала сервиса!
+		В Нашей медиатеке вы найдёте такие жанры: рок, пост-панк, джаз, инди, блюз. Но Мы на этом не останавливаемся,
+		и будут внесены многие другие жанры, чтобы слушатель был всецело доволен! Уникальность нашему сайту придаёт
+		система аналого-цифрового преобразования, при котором Мы берём кассеты и оцифровываем их, чтобы пользователи
+		могли слушать их именно в Нашем интернет-радио! Желаем всем приятных впечатлений и хорошего звука! <!--/noindex-->
+ </p>
+			 <img src="img/MainImg.jpg" style="width:90%; display:block; margin:auto;"></img>
+			 <p align="center" class="content_NewsMaintext" >
+			 <!--noindex-->	Все самое интересное в telegram <!--/noindex--></p>
+
+
+				    <div class="content_music_Alltrack">
+				<!--	<img src="img/News/Poter-min.jpg" alt="Snow" style="width:100%">-->
+				<a href="tg://resolve?domain=RadioSABchannel">
+                    <button class="btn-hover color-3">Telegram</button></a>
+                    </div>
+
+
+
+
+			</div>
+		<!-- ====================================================================================== -->
+			<div class="footer">
+
+			<div>
+					<img class="footer_logo" src="img/Logo2.png" ></img>
+			</div>
+			<div style="
+    background-image: url(../img/Footer.svg);
+    display: grid;
+    align-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+" >
+
+			</div>
+			<div style="display:grid;justify-items: end; color:white;">
+				<p class="footer_Mail"></p>
+			<p class="footer_Name">©SAB 2022</p>
+			</div>
+			</div>
+<script src="./scripts/CustomizationAudio.js"></script>
+		</body>
+
+	</html>
