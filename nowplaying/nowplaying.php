@@ -4,7 +4,7 @@
 $max_recent = 5;
 
 //secret key to access the script
-$key = 'kN47fDsJMn';
+$key = '';
 
 //check access
 if ($_REQUEST['key'] !== $key) {

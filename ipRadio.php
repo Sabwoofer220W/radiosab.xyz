@@ -1,8 +1,8 @@
 <?php 
 $servername = "localhost";
-$database = "radiosab";
-$username = "radiosab";
-$password = "oO0hV4wN";
+$database = "";
+$username = "";
+$password = "";
 // Создаем соединение
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Проверяем соединение
